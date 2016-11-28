@@ -1,0 +1,28 @@
+<?php
+
+add_action( 'cs_import_users', 'cs_import_users_handle' );
+if ( ! function_exists( 'cs_import_users_handle' ) ) {
+	function cs_import_users_handle( $obj ) {
+		if (class_exists('cs_user_import')) {
+			ob_start();
+			$cs_user_import = new cs_user_import();
+            $cs_user_import->cs_import_user_demodata( false, false, false, $obj->users_data_path );
+			ob_end_clean();
+			$obj->action_return = true;
+		} else {
+			$obj->action_return = false;
+		}
+	}
+}
+
+add_action( 'cs_import_plugin_options', 'cs_import_plugin_options_handle' );
+if ( ! function_exists( 'cs_import_plugin_options_handle' ) ) {
+	function cs_import_plugin_options_handle( $obj ) {
+		if ( function_exists( 'cs_demo_plugin_data' ) ) {
+			cs_demo_plugin_data( $obj->plugins_data_path );
+			$obj->action_return = true;
+		} else {
+			$obj->action_return = false;
+		}
+	}
+}

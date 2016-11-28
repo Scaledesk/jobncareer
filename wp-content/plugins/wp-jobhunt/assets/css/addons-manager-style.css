@@ -1,0 +1,21 @@
+.jc-addons-holder .jc-addons-title {margin:15px 0 10px;}
+.jc-addons-holder .jc-addons-title h1{font-size:23px; margin:0 5px 0 0; line-height:26px; font-weight: 400; display:inline-block; vertical-align: middle;}
+.jc-addons-holder .jc-addons-title a {background: #f7f7f7 none repeat scroll 0 0; border: 1px solid #ccc; border-radius: 2px; font-size: 13px; font-weight: 600; margin-left: 4px; padding: 4px 8px; position: relative; text-decoration: none; text-shadow: none; font-family: arial; color: #0073aa;}
+.jc-addons-holder .jc-addons-title a:hover {background: #00a0d2 none repeat scroll 0 0; border-color: #008ec2; color: #fff;}
+.jc-addons-nav {margin:0 0 30px;}
+.jc-addons-nav ul {margin:0;padding:0;}
+.jc-addons-nav ul li {list-style:none; display:inline-block; vertical-align:middle;}
+.jc-addons-nav ul li a {border-left: 1px solid #72777c; font-size: 13px; font-weight: 400; line-height: normal; outline:none; padding: 0 8px; text-decoration: none; color: #0073aa; font-family: arial;}
+.jc-addons-nav ul li a:hover{color:#333;}
+.jc-addons-nav ul li:first-child a{border-left:none; padding-left:0;}
+
+.jc-addons-products ul {margin:0 0 0 -10px; padding:0;}
+.jc-addons-products ul li {display: inline-block; float: none; list-style:none; margin: 0 0 10px 10px; background: #f5f5f5 none repeat scroll 0 0; border: 1px solid #ddd; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.1) inset; vertical-align: top; width: 18.888%; min-height: 271px;}
+.jc-addons-products ul li:hover{background:#fff;}
+.jc-addons-products ul li a {outline:none; text-decoration: none; box-shadow:none;}
+.jc-addons-products ul li a h2 {background: #fff; color: #333; font-size: 18px; line-height: 23px; margin: 0; padding: 14px 20px;}
+.jc-addons-products ul li figure {background:#fff; padding: 17px 20px; margin: 0;} 
+.jc-addons-products ul li img {width:auto;}
+.jc-addons-products ul li .text {border-top: 1px solid #f1f1f1; height: 100%; min-height: 130px; padding: 20px;}
+.jc-addons-products ul li .text p {font-size: 13px; margin:0; line-height:1.5 !important; font-family: arial; color:#333; }
+.jc-addons-products ul li figure ~ h2 {padding-top:0;}
